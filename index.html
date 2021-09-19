@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>4.5 HTML Layout</title>
+</head>
+	<style>
+	.flex-container {
+	display: flex;
+	background-color: aqua;
+		justify-content: center;
+	}
+		.flex-container > div {
+		background-color: aliceblue;
+		margin: 20px;
+		padding: 20px;
+		font-sixe 30px;
+	}
+		#grad1 {
+			height: 600px;
+			background-color: aqua; /* For browsers that do not support gradients */
+			background-image: linear-gradient(to bottom right, aqua, aqua, purple, red);
+		}
+	</style>
+<body>
+	<div class="flex-container">
+	<div>Illustrator</div>
+		<div>Photoshop</div>
+		<div>Dreams of a Draftsman</div>
+		<div>Printmaking</div>
+		<div>Gouache</div>
+	</div>
+	<div id="grad1"></div>
+</body>
+</html>
